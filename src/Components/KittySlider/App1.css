@@ -1,0 +1,37 @@
+.Slider {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textLove {
+  font-size: 2rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gifs {
+  margin-bottom: 2rem;
+  height: 300px;
+  width: 300px;
+}
+
+.prev {
+  width: 9rem;
+  padding: 0px;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.next {
+  width: 9rem;
+  padding: 0px;
+  margin: 0;
+  margin-left: 1rem;
+}

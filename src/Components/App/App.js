@@ -20,7 +20,9 @@ function App() {
       ) : (
         <img className="imgHappy" src="/poze/kitty.gif" alt="happyCat"></img>
       )}
-      <button onClick={iubitBtnClick}>Te iubesc!</button>
+      <button className="loveBtn" onClick={iubitBtnClick}>
+        Te iubesc!
+      </button>
     </div>
   );
 }
